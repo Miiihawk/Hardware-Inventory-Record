@@ -1,0 +1,39 @@
+#name = input("What is your name?\n ")
+#print("Hairo " , name)
+#message = input("Delulu kaba beh?\n")
+#if message =="yes": 
+  #print("HAHAHAAHAH DELULU!")
+#else : 
+  #print("PANGIT MO BAI!") 
+
+#A = input("your first number:") 
+#B = input("your second number:") 
+#C = input("your third number:") 
+#average = (float(A) + float(B) + float(C)) / 3
+#print("the average is", average) 
+#Age = input( "your age:") 
+#if int(Age) >= 19: 
+# print("you are an Teenager")
+#elif int(Age) >= 20:
+# print("you are an Adult") 
+#else : 
+# print("SHE SAID SHE WAS 12!")
+
+A = input("your first number:") 
+B = input("your second number:") 
+C = input("your third number:") 
+
+if A < B and A < B and B < C: 
+  print(A,B,C) 
+elif B < A and B < C and C < B: 
+  print(B,A,C) 
+elif C < A and C < B and A < C: 
+  print(C,B,A)
+elif C < A and C <  B and A < B:
+  print(C,A,B)
+elif A < B and A < C and B < C:
+  print(A,C,B)
+elif B < A and B < C and A < C:
+  print(B,C,A)
+else:
+  print("bobo")
